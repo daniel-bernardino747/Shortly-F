@@ -27,7 +27,7 @@
       {
         "newlinesBetween": "always",
         "groups": [
-          "/^react",
+          "/^react/",
           "module",
           ["/^@components/", "/^@services/", "/^@contexts"],
           ["/^@pages/", "/@assets/", "/^@constants/"],
