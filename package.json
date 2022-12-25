@@ -19,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/daniel-bernardino747/Shortly-F/issues"
   },
-  "homepage": "https://github.com/daniel-bernardino747/Shortly-F#readme",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
