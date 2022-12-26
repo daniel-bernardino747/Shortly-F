@@ -19,5 +19,6 @@
   "paths": {
     "@/*": ["*"]
   },
-  "baseUrl": "./src"
+  "baseUrl": "./src",
+  "files": ["src/styles/index.d.ts"]
 }

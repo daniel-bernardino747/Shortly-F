@@ -7,7 +7,7 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier/react"
+    "prettier"
   ],
   "overrides": [],
   "parser": "@typescript-eslint/parser",
@@ -15,7 +15,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint", "prettier", "import-helpers"],
+  "plugins": ["react", "@typescript-eslint", "import-helpers", "prettier"],
   "rules": {
     "prettier/prettier": "error",
     "space-before-function-paren": "off",
@@ -27,7 +27,7 @@
         "groups": [
           "/^react/",
           "module",
-          ["/^@components/", "/^@services/", "/^@contexts"],
+          ["/^@components/", "/^@services/", "/^@contexts/"],
           ["/^@pages/", "/@assets/", "/^@constants/"],
           ["parent", "sibling", "index"]
         ],
