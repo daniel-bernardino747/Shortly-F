@@ -1,17 +1,17 @@
 export default {
-  title: "light",
+  title: "dark",
 
   colors: {
     primary: "rgba(69, 153, 21, 1)",
-    secundary: "rgba(92, 165, 51, 1)",
+    secundary: "rgba(72, 139, 34, 1)",
 
-    highlight: "rgba(255, 255, 255, 1)",
-    background: "rgba(245, 245, 245, 1)",
+    highlight: "rgba(34, 34, 34, 1)",
+    background: "rgba(22, 22, 22, 1)",
 
     text: {
-      primary: "rgba(17, 17, 17, 1)",
-      secundary: "rgba(156, 156, 156, 1)",
-      placeholder: "rgba(156, 156, 156, 1)",
+      primary: "rgba(250, 250, 250, 1)",
+      secundary: "rgba(208, 208, 208, 1)",
+      placeholder: "rgba(97, 97, 97, 1)",
 
       highlight: "rgba(69, 153, 21, 1)",
       reverseBackground: "rgba(251, 251, 251, 1)",
