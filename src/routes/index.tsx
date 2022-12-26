@@ -1,4 +1,5 @@
-import { useContext } from "react";
+import React, { useContext } from "react";
+
 import AuthContext from "../contexts/auth";
 import PrivateRoutes from "./app.routes";
 import PublicRoutes from "./auth.routes";
