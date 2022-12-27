@@ -1,12 +1,12 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import PublicPagesLogged from "../components/publicPageLogged";
+import PublicPage from "../components/PublicPage";
 import Home from "../pages/Home";
 
 const PrivateRoutes: React.FC = () => (
   <Routes>
-    <Route path="/" element={<PublicPagesLogged />}>
+    <Route path="/" element={<PublicPage />}>
       <Route index element={<Home />} />
     </Route>
   </Routes>
