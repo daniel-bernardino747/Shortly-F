@@ -1,16 +1,16 @@
 import React, { ReactNode } from "react";
 import { Outlet } from "react-router";
 
+import * as S from "./styles";
+
 interface IAppProps {
   children?: ReactNode;
 }
 const PublicPagesLogged: React.FC<IAppProps> = () => {
   return (
-    <>
-      <header>Header Logged</header>
+    <S.Container>
       <Outlet />
-      <footer>Footer Logged</footer>
-    </>
+    </S.Container>
   );
 };
 
