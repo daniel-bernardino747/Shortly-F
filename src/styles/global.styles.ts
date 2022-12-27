@@ -6,23 +6,6 @@ export default createGlobalStyle`
     v2.0 | 20110126
     License: none (public domain)
   */
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    color: ${(props) => props.theme.colors.text.primary};
-    font-weight: 400;
-    font-family: 'Lexend Deca', sans-serif;
-    background: ${(props) => props.theme.colors.background};
-  }
-  .root {
-    display: flex;
-    flex-direction: column;
-  }
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -65,5 +48,22 @@ export default createGlobalStyle`
   table {
     border-collapse: collapse;
     border-spacing: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    color: ${(props) => props.theme.colors.text.primary};
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    background: ${(props) => props.theme.colors.background};
+  }
+  .root {
+    display: flex;
+    flex-direction: column;
   }
 `;
