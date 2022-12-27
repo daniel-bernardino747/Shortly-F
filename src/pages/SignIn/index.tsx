@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 
+import { AuthForm } from "../../components/Forms/Auth";
 import Header from "../../components/Header";
 import { HeaderProps } from "../../components/Header/types";
 import AuthContext from "../../contexts/auth";
@@ -19,12 +20,13 @@ const SignIn: React.FC = () => {
   }
 
   return (
-    <div>
+    <>
       <Header links={links} />
+      <AuthForm isRegister />
       <button type="button" onClick={handleSignIn}>
         Sign In
       </button>
-    </div>
+    </>
   );
 };
 
