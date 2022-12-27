@@ -20,5 +20,5 @@
     "@/*": ["*"]
   },
   "baseUrl": "./src",
-  "files": ["src/styles/index.d.ts"]
+  "files": ["src/styles/index.d.ts", "src/index.d.ts"]
 }
