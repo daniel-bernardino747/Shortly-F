@@ -8,6 +8,8 @@ export default {
     highlight: "rgba(34, 34, 34, 1)",
     background: "rgba(22, 22, 22, 1)",
 
+    error: "rgba(243, 80, 52, 1)",
+
     text: {
       primary: "rgba(250, 250, 250, 1)",
       secundary: "rgba(208, 208, 208, 1)",

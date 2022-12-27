@@ -11,6 +11,8 @@ declare module "styled-components" {
       highlight: string;
       background: string;
 
+      error: string;
+
       text: {
         primary: string;
         secundary: string;
